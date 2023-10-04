@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Using CSS</title>
+    <style>
+        .font{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container{
+            display: flexbox;
+            margin: auto;
+            border: solid;
+            border-width: 5px;
+            width: 80%;
+            background-color: white;
+        }
+        .button{
+            background-color: #409943;
+            border: none;
+            color: white;
+            padding: 8px 8px;
+            text-align: center;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body style="background-color: gray;">
+    <div class="container" style="height: 100px; line-height: 50px;"><h1 class="font" style="text-align: center;">HCI Assignment-3 L1CC</h1></div>
+    <br>
+    <div class="container" style="height: 800px;">
+        <table class="font" style="width: 80%; margin: auto;">
+            <tr><th colspan="2"><h1>Portfolio with CSS</h1></th></tr>
+            <tr>
+                <td colspan="2">
+                    <h2>Name: Registan</h2>
+                    <h2>Age: 16</h2>
+                    <h2>Binus ID: 2702364963</h2>
+                    <h2>Class: L1CC</h2>
+                    <h2>GitHub: Regis-tan <a href="https://github.com/Regis-tan"><button class="button">GitHub Profile</button></a></h2>
+                    <center><h1>Gender</h1></center>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <center>
+                    <label for="male" class="font">Male</label>
+                    <input type="radio" name="gender" id="male" checked>
+                    </center>
+                </td>
+                <td>
+                    <center>
+                    <label for="female" class="font">Female</label>
+                    <input type="radio" name="gender" id="female">
+                    </center>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><center><h1>Past HTML Projects</h1></center></td>
+            </tr>
+            <tr>
+                <td><center><div style="border: solid; width: 300px; height: 200px;">
+                    <h1>HCI Assignment-1</h1>
+                    <h2>Portfolio Project</h2>
+                    <a href="https://regis-tan.github.io/HCI-Assignment-1-L1CC/assignment.html"><button class="button">Link to project</button></a>
+                </div></center></td>
+                <td><center><div style="border: solid; width: 300px; height: 200px;">
+                    <h1>HCI Assignment-2</h1>
+                    <h2>Form Project</h2>
+                    <a href="https://regis-tan.github.io/HCI-Assignment-2-L1CC/HCI-Assignment-2.html"><button class="button">Link to project</button></a>
+                </div></center></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
